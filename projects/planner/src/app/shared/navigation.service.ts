@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class Urls {
     public static readonly notAvailable = 'not-available';
-    private static readonly rootUrl = 'https://github.com/jirkapok/GasPlanner';
+    private static readonly rootUrl = 'https://github.com/cjq1216/GasPlanner';
     private static readonly assetsDoc = 'assets/doc/';
 
     public get projectUrl(): string {

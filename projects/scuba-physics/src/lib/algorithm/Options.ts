@@ -14,10 +14,10 @@ export enum SafetyStop {
 // See Options for values meaning
 export class OptionDefaults {
     public static readonly altitude = 0;
-    public static readonly saltWater = Salinity.salt;
+    public static readonly saltWater = Salinity.fresh;
     public static readonly roundStopsToMinutes = false;
-    public static readonly gasSwitchDuration = 2;
-    public static readonly problemSolvingDuration = 1;
+    public static readonly gasSwitchDuration = 1;
+    public static readonly problemSolvingDuration = 2;
     public static readonly lastStopDepth = 3;
     public static readonly lastStopDepthRecre = 5;
     public static readonly safetyStopRecre = SafetyStop.auto;

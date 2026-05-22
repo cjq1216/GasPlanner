@@ -34,7 +34,7 @@
               "projects/planner/src/favicon.ico",
               "projects/planner/src/manifest.webmanifest",
                 {
-                  "glob": "**/*.(md|png)",
+                  "glob": "**/*.(md|png|jpg)",
                   "input": "doc",
                   "output": "assets/doc"
                 }
@@ -113,7 +113,7 @@
               "projects/planner/src/assets",
               "projects/planner/src/manifest.webmanifest",
               {
-                "glob": "**/*.(md,png)",
+                "glob": "**/*.(md|png|jpg)",
                 "input": "doc",
                 "output": "assets/doc"
               }

@@ -50,6 +50,7 @@ export class HelpComponent implements OnInit {
                 { label: 'General', path: 'plan_options' },
                 { label: 'Environment', path: 'environment' },
                 { label: 'Conservatism', path: 'gradient_factors' },
+                { label: 'Conservatism (decompression)', path: 'gradient_factors_bilingual' },
                 { label: 'Gases', path: 'plan_options', anchor: 'gases' },
                 { label: 'Air breaks', path: 'plan_options', anchor: 'air-breaks' },
                 { label: 'Stops', path: 'stops' },

@@ -9,7 +9,7 @@ export class Gradients {
 export class StandardGradientsService {
     public readonly lowName = 'Low (45/95)';
     public readonly mediumName = 'Medium (40/85)';
-    public readonly highName = 'High (30/75)';
+    public readonly highName = 'High (30/70)';
     private empty = new Gradients(1, 1);
 
     private gfMap = new Map<string, Gradients>();
@@ -17,7 +17,7 @@ export class StandardGradientsService {
     constructor() {
         this.gfMap.set(this.lowName, new Gradients(0.45, 0.95));
         this.gfMap.set(this.mediumName, new Gradients(OptionDefaults.gfLow, OptionDefaults.gfHigh));
-        this.gfMap.set(this.highName, new Gradients(0.30, 0.75));
+        this.gfMap.set(this.highName, new Gradients(0.30, 0.70));
     }
 
     public labelFor(gfLow: number, gfHigh: number): string {
